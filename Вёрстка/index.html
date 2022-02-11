@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <title>Trial Assignments</title>
+</head>
+<body>
+    <div class="layout">
+
+        <div class="product">
+            <div class="product__preview">
+                <div class="product__preview-bread">
+                    <div class="product__preview-clothes">
+                        <img src="images/image2.jpg"/>
+                    </div>
+                    <div class="product__preview-clothes">
+                        <img src="images/image3.jpg"/>
+                    </div>
+                    <div class="product__preview-clothes">
+                        <img src="images/image4.jpg"/>
+                    </div>
+                </div>
+                <div class="product__preview-clothes-top">
+                    <img src="images/image1.png"/>
+                </div>
+            </div>
+
+            <div class="product__description">
+                <h2 class="product__title">Рубашка Medicin</h2>
+
+                <div class="product__categories">
+                    <a href="#">Рубашка Medicin</a>
+                    <a href="#">Все модели Medicin</a>
+                    <a href="#">Рубашки</a>
+                </div>
+                <div class="product__price">
+                    <div class="product__price-actual">
+                        <span class="product__price-old">2 699</span>
+                        <span class="product__price-current price">2 499</span>
+                    </div>
+                    <div class="product__price-promo">
+                        <span class="product__price-promo price">2 227</span>
+                        <span class="product__price-text"> <span style="font-size: 15px;">- с промокодом</span></span>
+                    </div>
+                </div>
+                
+                <div class="product__info">
+                    <div class="product__info-item">
+                        <img src = "images/ok.ico" alt="#"/>В наличии в магазине
+                        <a href="#">Lamoda</a>
+                    </div>
+                    <div class="product__info-item">
+                        <img src = "images/fast.ico" alt="#"/>Бесплатная доставка
+                    </div>
+                </div>
+                <div class="product__count">
+                    <div class="product__count-info">
+                        <span id="product__count-decrease" style="color: #d6d6d6;">
+                            -
+                        </span>
+                        <input type="text" class="product__count-quantity" id="quantity" value="1">
+                        <span id="product__count-increase">
+                            +
+                        </span>
+                    </div>
+                </div>
+                <div class="product__actions">
+                    <button class="custom-button custom-button--blue" id="product__actions-buy">Купить</button>
+                    <button class="custom-button">в избранное</button>
+                </div>
+
+                <div class="product__text">
+                    <span class="product__text-text">
+                        Рубашка Medicine выполнена из вискозной ткани с клетчатым узором. 
+                        Детали: прямой крой; отложной воротник; планка и манжеты на пуговицах; карман на груди.
+                    </span>
+                </div>
+
+                <div class="product__share">
+                    <span class="product__share-title">Поделиться:</span>
+
+                    <div class="product__share-list">
+                        <a href="#">
+                            <img src="images/vk.ico"/>
+                        </a>
+                        <a href="#">
+                            <img src="images/google.ico"/>
+                        </a>
+                        <a href="#">
+                            <img src="images/facebook.ico"/>
+                        </a>
+                        <a href="#">
+                            <img src="images/twitter.ico"/>
+                        </a>
+                    </div>
+                    <span class="product__share-count">123</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "js/product_quantity.js"></script>
+    <script src= "js/buy_product.js"></script>
+    <script src = "js/image_zoom.js"></script>
+</body>
+</html>
